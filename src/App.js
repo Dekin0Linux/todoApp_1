@@ -1,7 +1,7 @@
 
 import './App.css';
 import React,{useState,useEffect} from 'react'
-import {FaPlus} from 'react-icons/fa'
+import {FaPlus,FaCheckCircle,FaFlagCheckered} from 'react-icons/fa'
 import Task from './components/Task';
 
 function App() {
@@ -63,10 +63,16 @@ function App() {
               <img src="https://www.yugatech.com/wp-content/uploads/2020/09/Facebook-Avatar.jpg" alt="imgHere" className='rounded-full w-14 h-14'/>
               <div className='mx-3 py-10'>
                 <p>My List</p>
-                <p className='text-purple-800 font-bold text-xl'>Salifu Faisal</p>
+                <p className='text-purple-800 font-bold text-xl'>Welcome User</p>
               </div>
             </div>
             <hr className='bg-purple-500 h-1 rounded-xl'/>
+            <p className='font-semibold my-2'>Legend</p>
+            <ul className='m-5 '>
+              <li className='flex items-center md:my-4'><FaCheckCircle color='green' className='mr-3'/>Completed</li>
+              <li className='flex items-center md:my-4'><span className='w-4 h-4 p-1 bg-orange-400 rounded-full mr-3'></span>Uncompleted</li>
+              <li className='flex items-center md:my-4'><FaFlagCheckered color='green' className='mr-3'/>Achieved</li>
+            </ul>
             <div>
               
             </div>
