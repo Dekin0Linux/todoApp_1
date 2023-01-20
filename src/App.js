@@ -83,8 +83,8 @@ function App() {
           <div className='grow bg-purple-500 rounded-lg md:px-44 px-3 overflow-auto md:h-full'>
 
             <div className='sticky top-0 bg-purple-500 mb-5 shadow-lg pt-4'>
-              <h3 className='text-white font-semibold text-2xl'>Today main focus</h3>
-              <h3 className='text-white font-bold text-4xl'>Design team meeting</h3>
+              <h3 className='text-white font-semibold text-2xl'>Today's main focus</h3>
+              <h3 className='text-white font-bold text-4xl'>Set Goals For Today</h3>
 
               {/* INPUT TASK */}
               <form className='bg-white p-5 rounded-lg my-10 flex items-center ' onSubmit={saveTask}>
