@@ -59,14 +59,16 @@ function App() {
 
           <div className='flex-none px-5'>
             {/* USER ICONE AND NAME */}
-            <div className='flex items-center mb-2'>
+            <div className='flex items-center md:mb-2'>
               <img src="https://www.yugatech.com/wp-content/uploads/2020/09/Facebook-Avatar.jpg" alt="imgHere" className='rounded-full w-14 h-14'/>
-              <div className='mx-3 py-10'>
+              <div className='mx-3 pt-5'>
                 <p>My List</p>
                 <p className='text-purple-800 font-bold text-xl'>Welcome User</p>
               </div>
             </div>
+
             <hr className='bg-purple-500 h-1 rounded-xl'/>
+
             <p className='font-semibold my-2'>Legend</p>
             <ul className='m-5 '>
               <li className='flex items-center md:my-4'><FaCheckCircle color='green' className='mr-3'/>Completed</li>
